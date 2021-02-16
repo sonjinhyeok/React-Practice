@@ -4,8 +4,7 @@ function InputSample() {
   const style = {
     margin : 20,
     fontSize : '20px'
-  }
-  
+  };
   // const [name , setName] = useState('');
   // const [nickName , setNickName] = useState('');
   const [inputs, setInputs] = useState({
@@ -15,7 +14,7 @@ function InputSample() {
 
   const nameInput = useRef();
 
-const { name , nickname } = inputs; // 비구조화 할당을 통해 값 추출
+  const { name , nickname } = inputs; // 비구조화 할당을 통해 값 추출
 
   // const onChangeName = (event) => {
   //   setName(event.target.value);
